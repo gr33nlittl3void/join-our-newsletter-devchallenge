@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" subscribe to our newsletter so you never miss any of our deals">
+    <title>join our newsletter</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <style>
+        body{
+            background-color: white;
+            margin: 0%;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .title{
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 0%;
+        }
+        .paragraph{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 500px;
+            color: rgb(113, 113, 113);
+        }
+        form{
+            justify-self: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            border: 3px solid white;
+            box-shadow: 0px 10px 25px rgb(189, 187, 187);
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+        }
+        #button{
+            background-color: rgb(58, 77, 245);
+            border-radius: 10px;
+            height: 40px;
+            width: 403px;
+            border-color:  rgb(58, 77, 245);
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: none;
+            color: white;
+            font-size: 3vh;
+        }
+        #email{
+            background-color: rgb(243, 242, 242);
+            border-color: white;
+            border-radius: 10px;
+            height: 40px;
+            text-align: center;
+        }
+        input, button{
+            border: none;
+            outline: none;
+        }
+        #form-text{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: smaller;
+            text-align: center;
+            color: rgb(66, 65, 65);
+            margin-top: 0%;
+        }
+        
+        #logo{
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            align-self:
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <img id="logo" src="./assets/logo.svg" alt="logo">
+            <h1 class="title"> Join our newsletter </h1>
+            <p class="paragraph">Keep up with our latest collections, exclusive deals and special offers! 
+            We introduce a new collection every week, so stay tuned to snag the hottest items just for you.</p>
+            <div id="form">
+                <form>
+                    <input type="text" id="email" placeholder="Enter your email address" name="email">
+                    <input type="button" id="button" value="Subscribe now">
+                    <p id="form-text">Your email is 100% confidential and won't send you any spam.</p>
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
